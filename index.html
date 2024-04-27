@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036"></script>
+    <title>Главная</title>
+</head>
+
+
+<body class="m-page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="" class="header__logo">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+
+                    <button class="burger">
+                        <img src="img/burger.svg" alt="" class="_view1">
+                        <img src="img/burger2.svg" alt="" class="_view2">
+                    </button>
+
+                    <div class="header-menu">
+                        <div class="header-menu__scroll">
+                            <div class="header__logos _flex">
+                                <a href="" class="header__logo header__logo2">
+                                    <img src="img/logo2.webp" alt="">
+                                </a>
+                                <a href="" class="header__logo header__logo3">
+                                    <img src="img/logo3.webp" alt="">
+                                </a>
+                            </div>
+                            <nav class="nav">
+                                <ul class="menu">
+                                    <li class="menu-item menu-item-has-children">
+                                        <a>О ФОНДЕ</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item ">
+                                                <a href="">Органы управления</a>
+                                            </li>
+                                            <li class="menu-item ">
+                                                <a href="">Управление капиталом</a>
+                                            </li>
+                                            <li class="menu-item ">
+                                                <a href="">документы</a>
+                                            </li>
+                                            <li class="menu-item ">
+                                                <a href="">Отчетность</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item ">
+                                        <a href="">МЕЦЕНАТЫ</a>
+                                    </li>
+                                    <li class="menu-item ">
+                                        <a href="">проекты </a>
+                                    </li>
+                                    <li class="menu-item ">
+                                        <a href="">новости</a>
+                                    </li>
+                                    <li class="menu-item ">
+                                        <a href="">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <button class="header-menu__btn m-btn m-btn-red">
+                                <span>Сделать вклад</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <main class="content">
+
+            <div class="main">
+                <div class="main-slider slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide main-slide m-backdrop">
+                                <div class="container">
+                                    <div class="main-slide__inner">
+                                        <div class="main-slide__img">
+                                            <img src="img/main-bg.webp" alt="">
+                                        </div>
+                                        <div class="main-slide__content">
+                                            <div class="h1">
+                                                Фонд целевого капитала РТУ МИРЭА
+                                            </div>
+                                            <div class="main-slide__desc text16">
+                                                Наша миссия – популяризация культуры формирования целевого капитала, координация усилий бизнес-партнёров, выпускников и друзей Университета для достижения Стратегической цели РТУ МИРЭА
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide main-slide m-backdrop">
+                                <div class="container">
+                                    <div class="main-slide__inner">
+                                        <div class="main-slide__img">
+                                            <img src="img/main-bg.webp" alt="">
+                                        </div>
+                                        <div class="main-slide__content">
+                                            <div class="h1">
+                                                Фонд целевого капитала РТУ МИРЭА
+                                            </div>
+                                            <div class="main-slide__desc text16">
+                                                Наша миссия – популяризация культуры формирования целевого капитала, координация усилий бизнес-партнёров, выпускников и друзей Университета для достижения Стратегической цели РТУ МИРЭА
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button swiper-button-prev">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4 12.25C4 11.6977 4.44772 11.25 5 11.25H19C19.5523 11.25 20 11.6977 20 12.25C20 12.8023 19.5523 13.25 19 13.25H5C4.44772 13.25 4 12.8023 4 12.25Z" fill="black" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7071 4.54289C13.0976 4.93342 13.0976 5.56658 12.7071 5.95711L6.41421 12.25L12.7071 18.5429C13.0976 18.9334 13.0976 19.5666 12.7071 19.9571C12.3166 20.3476 11.6834 20.3476 11.2929 19.9571L4.29289 12.9571C3.90237 12.5666 3.90237 11.9334 4.29289 11.5429L11.2929 4.54289C11.6834 4.15237 12.3166 4.15237 12.7071 4.54289Z" fill="black" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button swiper-button-next">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4 12.25C4 11.6977 4.44772 11.25 5 11.25H19C19.5523 11.25 20 11.6977 20 12.25C20 12.8023 19.5523 13.25 19 13.25H5C4.44772 13.25 4 12.8023 4 12.25Z" fill="black" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2929 4.54289C11.6834 4.15237 12.3166 4.15237 12.7071 4.54289L19.7071 11.5429C20.0976 11.9334 20.0976 12.5666 19.7071 12.9571L12.7071 19.9571C12.3166 20.3476 11.6834 20.3476 11.2929 19.9571C10.9024 19.5666 10.9024 18.9334 11.2929 18.5429L17.5858 12.25L11.2929 5.95711C10.9024 5.56658 10.9024 4.93342 11.2929 4.54289Z" fill="black" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="patrons2">
+                <div class="container">
+                    <div class="patrons2__grid">
+                        <div class="patrons2__col">
+                            <div class="h2 primary-text caps-text">
+                                меценаты
+                            </div>
+                            <div class="patrons2__desc text16">
+                                Вклад в целевой капитал является проявлением поддержки и оценки доверия со стороны бизнес-партнеров, выпускников и друзей Университета в достижении стратегической цели РТУ МИРЭА.
+                            </div>
+                            <div class="patrons2__nav">
+                                <button class="patrons2__btn m-btn m-btn-red">
+                                    <span>Сделать вклад</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="patrons2__col2">
+                            <div class="patrons2__items grid grid2 grid-tablet">
+                                <div class="patron-card">
+                                    <div class="text24">
+                                        Кузин Игорь Вячеславович
+                                    </div>
+                                    <div class="patron-card__img-wrap">
+                                        <div class="patron-card__img">
+
+                                            <img src="img/patron.webp" alt="">
+
+                                        </div>
+                                    </div>
+                                    <div class="patron-card__type">
+                                        <img src="img/type.svg" alt="">
+                                        <span class="text14">Кибернетика'06</span>
+                                    </div>
+                                    <div class="patron-card__desc opacity-60">
+                                        <div class="text16">ООО «НПК «ВЕКТОР» </div>
+                                        <div class="text16">Генеральный директор</div>
+                                    </div>
+                                </div>
+
+                                <div class="patron-card">
+                                    <div class="text24">
+                                        Кузин Игорь Вячеславович
+                                    </div>
+                                    <div class="patron-card__img-wrap">
+                                        <div class="patron-card__img">
+
+                                            <img src="img/patron2.webp" alt="">
+
+                                        </div>
+                                    </div>
+                                    <div class="patron-card__type">
+                                        <img src="img/type.svg" alt="">
+                                        <span class="text14">Кибернетика'06</span>
+                                    </div>
+                                    <div class="patron-card__desc opacity-60">
+                                        <div class="text16">ООО «НПК «ВЕКТОР» </div>
+                                        <div class="text16">Генеральный директор</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="m-line">
+                            <img src="img/lines11.svg" alt="" class="_view1">
+                            <img src="img/lines11-mob.svg" alt="" class="_view2">
+                            <div class="m-line__num text16">
+                                01
+                            </div>
+                            <div class="m-badge">
+                                <span class="text20">1200 меценатов</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-line m-line2">
+                    <img src="img/lines12.svg" alt="" class="_view2">
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="container">
+                    <div class="progress__inner">
+                        <div class="progress__top">
+                            <div class="progress-item">
+                                <div class="progress-item__top">
+                                    <img src="img/progress-icon.svg" alt="">
+                                    <span class="text24 opacity-80">
+                                        Цель
+                                    </span>
+                                </div>
+                                <div class="h2">100 000 000 ₽</div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-item__top">
+                                    <img src="img/progress-icon2.svg" alt="">
+                                    <span class="text24 opacity-80">
+                                        Текущий счет
+                                    </span>
+                                </div>
+                                <div class="h2">11 500 000 ₽</div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-item__top">
+                                    <img src="img/progress-icon3.svg" alt="">
+                                    <span class="text24 opacity-80">
+                                        Пожертвования 2023 г.
+                                    </span>
+                                </div>
+                                <div class="h2">4 500 000 ₽</div>
+                            </div>
+                            <button class="progress__btn m-btn m-btn-red">
+                                <span>Сделать вклад</span>
+                            </button>
+                        </div>
+
+                        <div class="progress-bar2">
+                            <div class="progress-bar2__area">
+                                <div class="progress-bar2__area-fill" style="width: 20%; height: 20%;"></div>
+                                <div class="progress-bar2__area-fill2" style="width: 7%; height: 7%; left: 13%; top: 13%;">
+                                    <div class="progress-bar2__area-num text16">
+                                        7%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar2__area-rect" style="width: 20%; height: 20%;">
+                                <div class="progress-bar2__area-num text16">
+                                    20%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process">
+                <div class="container">
+                    <div class="process__grid grid grid2 grid-tablet">
+                        <div class="process-card">
+                            <div class="process-card__icon">
+                                <img src="img/process-icon.svg" alt="">
+                            </div>
+                            <div class="h2 caps-text">
+                                Управляющая компания
+                            </div>
+                            <div class="process-card__desc text16">
+                                Деньгами фонда управляют Управляющие компании. <br> Они позволяют реинвестировать полученные средства в проекты Университета.
+                            </div>
+                        </div>
+
+                        <div class="process-card">
+                            <div class="process-card__icon">
+                                <img src="img/process-icon2.svg" alt="">
+                            </div>
+                            <div class="h2 caps-text">
+                                Фонд
+                            </div>
+                            <div class="process-card__desc text16">
+                                Пожертвования не тратятся сразу, а приносят доход и продолжают софинансирование актуальных проектов в рамках выбранного направления в течение длительного периода времени.
+                            </div>
+                        </div>
+
+                        <div class="m-line process__line">
+                            <img src="img/lines7.svg" alt="" class="_view1">
+                            <img src="img/lines7-mob.svg" alt="" class="_view2">
+                            <div class="m-line__num text16">
+                                03
+                            </div>
+                        </div>
+                        <div class="m-line process__line2">
+                            <img src="img/lines8.svg" alt="" class="_view1">
+                            <img src="img/lines8-mob.svg" alt="" class="_view2">
+                            <div class="m-line__num text16">
+                                04
+                            </div>
+                            <div class="m-badge">
+                                <span class="text20">доход от основного капитала</span>
+                            </div>
+                        </div>
+                        <div class="m-line process__line3">
+                            <img src="img/lines9.svg" alt="" class="_view1">
+                            <img src="img/lines9mob.svg" alt="" class="_view2">
+                            <img src="img/lines9mob2.svg" alt="" class="_view2 process__line4">
+                            <div class="m-line__num text16">
+                                05
+                            </div>
+                            <div class="m-badge">
+                                <img src="img/pin.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="m-line process__line5">
+                            <img src="img/lines10.svg" alt="" class="_view1">
+                            <img src="img/lines10-mob.svg" alt="" class="_view2">
+                            <div class="m-line__num text16">
+                                02
+                            </div>
+                            <div class="m-badge">
+                                <span class="text20">пожертвования</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="university">
+                <div class="container">
+                    <div class="university__grid">
+                        <div class="university__col">
+                            <div class="university__logo">
+                                <img src="img/university-logo.png" alt="">
+                            </div>
+                            <div class="university__bottom">
+                                <div class="text24 text16-tablet opacity-80">
+                                    Учредитель фонда и признанный в России и в мире современный образовательный и научно-исследовательский центр
+                                </div>
+                                <a href="" class="university__link m-btn m-btn-red">
+                                    <span>Перейти</span>
+                                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.66663 8.5C2.66663 8.13181 2.9651 7.83333 3.33329 7.83333H12.6666C13.0348 7.83333 13.3333 8.13181 13.3333 8.5C13.3333 8.86819 13.0348 9.16667 12.6666 9.16667H3.33329C2.9651 9.16667 2.66663 8.86819 2.66663 8.5Z" fill="white" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52864 3.36193C7.78899 3.10158 8.2111 3.10158 8.47145 3.36193L13.1381 8.0286C13.3985 8.28894 13.3985 8.71106 13.1381 8.9714L8.47145 13.6381C8.2111 13.8984 7.78899 13.8984 7.52864 13.6381C7.26829 13.3777 7.26829 12.9556 7.52864 12.6953L11.7239 8.5L7.52864 4.30474C7.26829 4.04439 7.26829 3.62228 7.52864 3.36193Z" fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="university__col2">
+                            <img src="img/university.jpg" alt="" class="university__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="finance-directions">
+                <div class="container">
+                    <div class="finance-directions__top">
+                        <div class="finance-directions__title">
+                            <div class="h2 caps-text primary-text">
+                                Направления <span class="_hide-tablet">финансирования</span>
+                            </div>
+                            <div class="m-line m-line1">
+                                <img src="img/lines6.svg" alt="" class="_view1">
+                                <img src="img/lines6-mob.svg" alt="" class="_view2">
+                                <div class="m-line__num text16">
+                                    06
+                                </div>
+                                <div class="m-badge">
+                                    <span class="text20">передано 4 500 000 ₽</span>
+                                </div>
+                            </div>
+                            <div class="m-line m-line2">
+                                <img src="img/lines5.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="finance-directions__grid">
+                        <div class="finance-directions__items">
+                            <div class="finance-item _active">
+                                <div class="finance-item__show">
+                                    <div class="finance-item__icon">
+                                        <img src="img/type-icon.svg" alt="">
+                                    </div>
+                                    <div class="finance-item__content">
+                                        <div class="finance-item__title h3">Наука</div>
+                                        <div class="finance-item__desc text16">
+                                            Развитие научных исследований и технологий в Университете, создание новых лабораторий и базовых кафедр, поддержка действующих научных структурных подразделений.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="finance-item__hidden">
+                                    <div class="h3">
+                                        Проекты
+                                    </div>
+                                    <div class="finance-item__list">
+                                        <div class="finance-item__project">
+                                            <div class="finance-item__project-title text24">
+                                                Новая модель организационной деятельности
+                                            </div>
+                                            <div class="finance-item__project-desc text16 opacity-80">
+                                                Развитие научных и научно-технологических проектов по приоритетным исследовательским направлениям Университета;
+                                            </div>
+                                        </div>
+
+                                        <div class="finance-item__project">
+                                            <div class="finance-item__project-title text24">
+                                                Новая парадигма реальности: средства индивидуальной защиты
+                                            </div>
+                                            <div class="finance-item__project-desc text16 opacity-80">
+                                                Развитие научных и научно-технологических проектов по приоритетным исследовательским направлениям Университета;
+                                            </div>
+                                        </div>
+
+                                        <div class="finance-item__project">
+                                            <div class="finance-item__project-title text24">
+                                                Прототип нового сервиса
+                                            </div>
+                                            <div class="finance-item__project-desc text16 opacity-80">
+                                                Создание базовых кафедр совместно с компаниями-партнерами для развития инновационного научно-технического сотрудничества.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="finance-item__nav">
+                                        <a href="" class="m-btn m-btn-text">
+                                            <span>Смотреть проекты</span>
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.66666 8.50004C2.66666 8.13185 2.96513 7.83337 3.33332 7.83337H12.6667C13.0348 7.83337 13.3333 8.13185 13.3333 8.50004C13.3333 8.86823 13.0348 9.16671 12.6667 9.16671H3.33332C2.96513 9.16671 2.66666 8.86823 2.66666 8.50004Z" fill="#EB1F42" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52861 3.36189C7.78896 3.10154 8.21107 3.10154 8.47141 3.36189L13.1381 8.02855C13.3984 8.2889 13.3984 8.71101 13.1381 8.97136L8.47141 13.638C8.21107 13.8984 7.78896 13.8984 7.52861 13.638C7.26826 13.3777 7.26826 12.9556 7.52861 12.6952L11.7239 8.49996L7.52861 4.3047C7.26826 4.04435 7.26826 3.62224 7.52861 3.36189Z" fill="#EB1F42" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="finance-item">
+                                <div class="finance-item__show">
+                                    <div class="finance-item__icon">
+                                        <img src="img/type-icon2.svg" alt="">
+                                    </div>
+                                    <div class="finance-item__content">
+                                        <div class="finance-item__title h3">Образование</div>
+                                        <div class="finance-item__desc text16">
+                                            Развитие и совершенствование образовательного процесса в Университете с использованием передовых технологий и ресурсов.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="finance-item__hidden">
+                                    <div class="h3">
+                                        Проекты
+                                    </div>
+                                    <div class="finance-item__list">
+                                        <div class="finance-item__project">
+                                            <div class="finance-item__project-title text24">
+                                                Образование
+                                            </div>
+                                            <div class="finance-item__project-desc text16 opacity-80">
+                                                Развитие и совершенствование образовательного процесса в Университете с использованием передовых технологий и ресурсов.
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="finance-item__nav">
+                                        <a href="" class="m-btn m-btn-text">
+                                            <span>Смотреть проекты</span>
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.66666 8.50004C2.66666 8.13185 2.96513 7.83337 3.33332 7.83337H12.6667C13.0348 7.83337 13.3333 8.13185 13.3333 8.50004C13.3333 8.86823 13.0348 9.16671 12.6667 9.16671H3.33332C2.96513 9.16671 2.66666 8.86823 2.66666 8.50004Z" fill="#EB1F42" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52861 3.36189C7.78896 3.10154 8.21107 3.10154 8.47141 3.36189L13.1381 8.02855C13.3984 8.2889 13.3984 8.71101 13.1381 8.97136L8.47141 13.638C8.21107 13.8984 7.78896 13.8984 7.52861 13.638C7.26826 13.3777 7.26826 12.9556 7.52861 12.6952L11.7239 8.49996L7.52861 4.3047C7.26826 4.04435 7.26826 3.62224 7.52861 3.36189Z" fill="#EB1F42" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="finance-item">
+                                <div class="finance-item__show">
+                                    <div class="finance-item__icon">
+                                        <img src="img/type-icon3.svg" alt="">
+                                    </div>
+                                    <div class="finance-item__content">
+                                        <div class="finance-item__title h3">Инфраструктура</div>
+                                        <div class="finance-item__desc text16">
+                                            Развитие инфраструктуры и социальных объектов Университета для повышения качества образования и комфорта студентов и сотрудников.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="finance-item__hidden">
+                                    <div class="h3">
+                                        Проекты
+                                    </div>
+                                    <div class="finance-item__list">
+                                        <div class="finance-item__project">
+                                            <div class="finance-item__project-title text24">
+                                                Инфраструктура
+                                            </div>
+                                            <div class="finance-item__project-desc text16 opacity-80">
+                                                Развитие инфраструктуры и социальных объектов Университета для повышения качества образования и комфорта студентов и сотрудников.
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="finance-item__nav">
+                                        <a href="" class="m-btn m-btn-text">
+                                            <span>Смотреть проекты</span>
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.66666 8.50004C2.66666 8.13185 2.96513 7.83337 3.33332 7.83337H12.6667C13.0348 7.83337 13.3333 8.13185 13.3333 8.50004C13.3333 8.86823 13.0348 9.16671 12.6667 9.16671H3.33332C2.96513 9.16671 2.66666 8.86823 2.66666 8.50004Z" fill="#EB1F42" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52861 3.36189C7.78896 3.10154 8.21107 3.10154 8.47141 3.36189L13.1381 8.02855C13.3984 8.2889 13.3984 8.71101 13.1381 8.97136L8.47141 13.638C8.21107 13.8984 7.78896 13.8984 7.52861 13.638C7.26826 13.3777 7.26826 12.9556 7.52861 12.6952L11.7239 8.49996L7.52861 4.3047C7.26826 4.04435 7.26826 3.62224 7.52861 3.36189Z" fill="#EB1F42" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="finance-item">
+                                <div class="finance-item__show">
+                                    <div class="finance-item__icon">
+                                        <img src="img/type-icon4.svg" alt="">
+                                    </div>
+                                    <div class="finance-item__content">
+                                        <div class="finance-item__title h3">Человеческий капитал</div>
+                                        <div class="finance-item__desc text16">
+                                            Развитие системы поддержки студентов и сотрудников Университета, повышение квалификации и социальная поддержка.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="finance-item__hidden">
+                                    <div class="h3">
+                                        Проекты
+                                    </div>
+                                    <div class="finance-item__list">
+                                        <div class="finance-item__project">
+                                            <div class="finance-item__project-title text24">
+                                                Человеческий капитал
+                                            </div>
+                                            <div class="finance-item__project-desc text16 opacity-80">
+                                                Развитие системы поддержки студентов и сотрудников Университета, повышение квалификации и социальная поддержка.
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="finance-item__nav">
+                                        <a href="" class="m-btn m-btn-text">
+                                            <span>Смотреть проекты</span>
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.66666 8.50004C2.66666 8.13185 2.96513 7.83337 3.33332 7.83337H12.6667C13.0348 7.83337 13.3333 8.13185 13.3333 8.50004C13.3333 8.86823 13.0348 9.16671 12.6667 9.16671H3.33332C2.96513 9.16671 2.66666 8.86823 2.66666 8.50004Z" fill="#EB1F42" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52861 3.36189C7.78896 3.10154 8.21107 3.10154 8.47141 3.36189L13.1381 8.02855C13.3984 8.2889 13.3984 8.71101 13.1381 8.97136L8.47141 13.638C8.21107 13.8984 7.78896 13.8984 7.52861 13.638C7.26826 13.3777 7.26826 12.9556 7.52861 12.6952L11.7239 8.49996L7.52861 4.3047C7.26826 4.04435 7.26826 3.62224 7.52861 3.36189Z" fill="#EB1F42" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="finance-item">
+                                <div class="finance-item__show">
+                                    <div class="finance-item__icon">
+                                        <img src="img/type-icon5.svg" alt="">
+                                    </div>
+                                    <div class="finance-item__content">
+                                        <div class="finance-item__title h3">Культура, спорт, общественная деятельность</div>
+                                        <div class="finance-item__desc text16">
+                                            Поддержка инициатив студентов, сотрудников и выпускников Университета в области культуры, спорта и организованного досуга; развитие моделей студенческого самоуправления.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="finance-item__hidden">
+                                    <div class="h3">
+                                        Проекты
+                                    </div>
+                                    <div class="finance-item__list">
+                                        <div class="finance-item__project">
+                                            <div class="finance-item__project-title text24">
+                                                Культура, спорт, общественная деятельность
+                                            </div>
+                                            <div class="finance-item__project-desc text16 opacity-80">
+                                                Поддержка инициатив студентов, сотрудников и выпускников Университета в области культуры, спорта и организованного досуга; развитие моделей студенческого самоуправления.
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="finance-item__nav">
+                                        <a href="" class="m-btn m-btn-text">
+                                            <span>Смотреть проекты</span>
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.66666 8.50004C2.66666 8.13185 2.96513 7.83337 3.33332 7.83337H12.6667C13.0348 7.83337 13.3333 8.13185 13.3333 8.50004C13.3333 8.86823 13.0348 9.16671 12.6667 9.16671H3.33332C2.96513 9.16671 2.66666 8.86823 2.66666 8.50004Z" fill="#EB1F42" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52861 3.36189C7.78896 3.10154 8.21107 3.10154 8.47141 3.36189L13.1381 8.02855C13.3984 8.2889 13.3984 8.71101 13.1381 8.97136L8.47141 13.638C8.21107 13.8984 7.78896 13.8984 7.52861 13.638C7.26826 13.3777 7.26826 12.9556 7.52861 12.6952L11.7239 8.49996L7.52861 4.3047C7.26826 4.04435 7.26826 3.62224 7.52861 3.36189Z" fill="#EB1F42" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-collection">
+                <div class="container">
+                    <div class="news-collection__top">
+                        <div class="news-collection__title">
+                            <div class="h2 caps-text primary-text">
+                                новости
+                            </div>
+                            <div class="m-line">
+                                <img src="img/lines4.svg" alt="" class="_view1">
+                                <img src="img/lines4-mob.svg" alt="" class="_view2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-slider slider">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="blog-card">
+                                        <a href="" class="blog-card__img _scale-img">
+                                            <img src="img/blog.webp" alt="">
+                                        </a>
+                                        <div class="blog-card__date text16 opacity-60">
+                                            23.01.2024
+                                        </div>
+                                        <div class="blog-card__title h3">
+                                            <a href="">
+                                                Попечительский совет Фонда
+                                            </a>
+                                        </div>
+                                        <div class="blog-card__desc text16">
+                                            Вклад в целевой капитал является проявлением поддержки и оценки доверия со стороны бизнес-партнеров, выпускников и друзей Университета в достижении стратегической цели РТУ МИРЭА.
+                                        </div>
+                                        <div class="blog-card__nav">
+                                            <a href="" class="blog-card__link m-btn m-btn-text">
+                                                <span>Подробнее</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="blog-card">
+                                        <a href="" class="blog-card__img _scale-img">
+                                            <img src="img/blog2.webp" alt="">
+                                        </a>
+                                        <div class="blog-card__date text16 opacity-60">
+                                            23.01.2024
+                                        </div>
+                                        <div class="blog-card__title h3">
+                                            <a href="">
+                                                Попечительский совет Фонда
+                                            </a>
+                                        </div>
+                                        <div class="blog-card__desc text16">
+                                            Вклад в целевой капитал является проявлением поддержки и оценки доверия со стороны бизнес-партнеров, выпускников и друзей Университета в достижении стратегической цели РТУ МИРЭА.
+                                        </div>
+                                        <div class="blog-card__nav">
+                                            <a href="" class="blog-card__link m-btn m-btn-text">
+                                                <span>Подробнее</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="blog-card">
+                                        <a href="" class="blog-card__img _scale-img">
+                                            <img src="img/blog2.webp" alt="">
+                                        </a>
+                                        <div class="blog-card__date text16 opacity-60">
+                                            23.01.2024
+                                        </div>
+                                        <div class="blog-card__title h3">
+                                            <a href="">
+                                                Попечительский совет Фонда
+                                            </a>
+                                        </div>
+                                        <div class="blog-card__desc text16">
+                                            Вклад в целевой капитал является проявлением поддержки и оценки доверия со стороны бизнес-партнеров, выпускников и друзей Университета в достижении стратегической цели РТУ МИРЭА.
+                                        </div>
+                                        <div class="blog-card__nav">
+                                            <a href="" class="blog-card__link m-btn m-btn-text">
+                                                <span>Подробнее</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="news-collection__bottom _flex-center">
+                        <div class="news-collection__nav">
+                            <button class="m-btn m-btn-red-light">
+                                <span>Смотреть все</span>
+                            </button>
+                            <div class="m-line">
+                                <img src="img/lines3.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subscribe">
+                <div class="container">
+                    <div class="subscribe__inner">
+                        <div class="subscribe__content">
+                            <div class="subscribe__top">
+                                <div class="h3">
+                                    Подписаться на новости
+                                </div>
+                                <div class="text16">
+                                    Хотите узнавать о новостях первыми? Подпишитесь.
+                                </div>
+                            </div>
+                            <form action="" class="subscribe-form">
+                                <div class="fg">
+                                    <input type="text" placeholder="E-mail">
+                                </div>
+                                <button class="subscribe-form__btn m-btn m-btn-red">
+                                    <span>Подписаться</span>
+                                </button>
+                            </form>
+                            <div class="subscribe__hint text16">
+                                Нажимая на кнопку, вы даете <a href="">согласие на обработку персональных данных.</a>
+                            </div>
+                            <div class="subscribe__thank">
+                                <img src="img/check2.svg" alt="">
+                                <div class="subscribe__thank-text">
+                                    <div class="h3">
+                                        Подписка успешно оформлена!
+                                    </div>
+                                    <div class="text16">
+                                        Чтобы отписаться от новостей перейдите по ссылке из письма
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="subscribe _success">
+                <div class="container">
+                    <div class="subscribe__inner">
+                        <div class="subscribe__content">
+                            <div class="subscribe__top">
+                                <div class="h3">
+                                    Подписаться на новости
+                                </div>
+                                <div class="text16">
+                                    Хотите узнавать о новостях первыми? Подпишитесь.
+                                </div>
+                            </div>
+                            <form action="" class="subscribe-form">
+                                <div class="fg">
+                                    <input type="text" placeholder="E-mail">
+                                </div>
+                                <button class="subscribe-form__btn m-btn m-btn-red">
+                                    <span>Подписаться</span>
+                                </button>
+                            </form>
+                            <div class="subscribe__hint text16">
+                                Нажимая на кнопку, вы даете <a href="">согласие на обработку персональных данных.</a>
+                            </div>
+                            <div class="subscribe__thank">
+                                <img src="img/check2.svg" alt="">
+                                <div class="subscribe__thank-text">
+                                    <div class="h3">
+                                        Подписка успешно оформлена!
+                                    </div>
+                                    <div class="text16">
+                                        Чтобы отписаться от новостей перейдите по ссылке из письма
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__col">
+                        <a href="" class="footer__logo">
+                            <img src="img/logo4.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="footer__col2">
+                        <div class="footer__top _flex-between">
+                            <div class="footer-contact">
+                                <div class="footer-contact__title text16">
+                                    Адрес
+                                </div>
+                                <div class="footer-contact__desc">
+                                    <img src="img/mark.svg" alt="">
+                                    <span class="text16">Москва, пр-т Вернадского, д. 78 стр. 13</span>
+                                </div>
+                            </div>
+                            <div class="footer-contact">
+                                <div class="footer-contact__title text16">
+                                    Телефон
+                                </div>
+                                <div class="footer-contact__desc">
+                                    <img src="img/phone.svg" alt="">
+                                    <a href="tel:+74996008080" class="text16">
+                                        +7 (499) 600-80-80 доб. 21071
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer-contact">
+                                <div class="footer-contact__title text16">
+                                    E-mail
+                                </div>
+                                <div class="footer-contact__desc">
+                                    <img src="img/email.svg" alt="">
+                                    <a href="mailto:fund@mirea.ru" class="text16">
+                                        fund@mirea.ru
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer-socials">
+                                <a href="" class="footer-socials__item">
+                                    <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.77446 9.56865L17.6238 3.03384C19.1865 2.35668 24.4949 0.192602 24.4949 0.192602C24.4949 0.192602 26.9431 -0.754479 26.7395 1.55166C26.6732 2.49874 26.1286 5.81348 25.584 9.44553L23.8841 20.1239C23.8841 20.1239 23.7468 21.6913 22.5914 21.9612C21.4359 22.2311 19.5275 21.0141 19.1865 20.7348C18.9166 20.5311 14.0865 17.472 12.3202 15.9757C11.8467 15.5684 11.2974 14.7492 12.3866 13.7974C14.8348 11.5528 17.7612 8.76367 19.5275 6.99736C20.3467 6.17814 21.1612 4.27451 17.7612 6.58539L8.16724 13.0492C8.16724 13.0492 7.07817 13.7311 5.04195 13.1202C3.00573 12.5093 0.61905 11.6996 0.61905 11.6996C0.61905 11.6996 -1.01469 10.6768 1.77446 9.59235V9.56865Z" fill="#EAEAEA" />
+                                    </svg>
+                                </a>
+                                <a href="" class="footer-socials__item">
+                                    <svg width="36" height="20" viewBox="0 0 36 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.8789 19.9241H19.974C20.3268 19.8826 20.6593 19.7372 20.9291 19.5063C21.1216 19.239 21.2221 18.9164 21.2156 18.5871C21.2156 18.5871 21.1739 15.7817 22.4751 15.3639C23.7764 14.9461 25.4118 18.0797 27.1606 19.2795C27.8168 19.8016 28.6467 20.0555 29.4826 19.9898L34.1562 19.9241C34.1562 19.9241 36.6035 19.7749 35.4456 17.8469C35.3501 17.6917 34.771 16.4263 31.9716 13.8299C29.0409 11.108 29.4288 11.5498 32.9624 6.84627C35.1112 3.97522 35.9469 2.22633 35.7022 1.47424C35.4575 0.722158 33.8637 0.948974 33.8637 0.948974H28.6051C28.3714 0.920832 28.1348 0.962335 27.9247 1.06832C27.724 1.2149 27.5638 1.41005 27.4591 1.63541C26.9134 3.04881 26.263 4.4195 25.5132 5.73606C23.1734 9.71732 22.2363 9.91429 21.8484 9.6815C20.959 9.08461 21.1798 7.36552 21.1798 6.13593C21.1798 2.28001 21.7767 0.668409 20.0457 0.250585C19.2408 0.0586851 18.4135 -0.0236543 17.5865 0.00583877C15.7122 0.00583877 14.1186 0.00583877 13.2233 0.453507C12.6264 0.745984 12.1608 1.40258 12.4413 1.43839C13.0385 1.49484 13.5925 1.77402 13.9932 2.22036C14.5363 2.95453 14.5125 4.60792 14.5125 4.60792C14.5125 4.60792 14.823 9.14426 13.7903 9.7113C13.08 10.0993 12.1071 9.30543 10.0179 5.70021C9.30982 4.44273 8.68383 3.14077 8.14376 1.80249C8.04933 1.57099 7.89975 1.36608 7.70804 1.2056C7.46307 1.04532 7.1894 0.933897 6.90218 0.87735L1.90015 0.913126C1.90015 0.913126 1.14808 0.913172 0.873511 1.25937C0.598941 1.60557 0.873511 2.14873 0.873511 2.14873C0.873511 2.14873 4.78912 11.311 9.22999 15.925C13.2948 20.1569 17.9088 19.8824 17.9088 19.8824" fill="#EAEAEA" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__bottom">
+                            <div class="footer__c text16">
+                                © 2023 Фонд РТУ МИРЭА
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>

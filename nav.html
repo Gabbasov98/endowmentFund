@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036"></script>
+    <title>Главная</title>
+</head>
+
+
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+</style>
+
+<body class="m-page">
+
+    <div class="wrapper" style="padding: 50px;">
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="management.html" style="display: block; margin-bottom: 20px;">
+            Органы управления
+        </a>
+        <a href="manage-capital.html" style="display: block; margin-bottom: 20px;">
+            Управление капиталом
+        </a>
+        <a href="docs.html" style="display: block; margin-bottom: 20px;">
+            Документы
+        </a>
+        <a href="report.html" style="display: block; margin-bottom: 20px;">
+            Отчетность
+        </a>
+        <a href="patrons.html" style="display: block; margin-bottom: 20px;">
+            Меценаты физлица
+        </a>
+        <a href="patrons2.html" style="display: block; margin-bottom: 20px;">
+            Меценаты юрлица
+        </a>
+        <a href="projects.html" style="display: block; margin-bottom: 20px;">
+            Проекты
+        </a>
+        <a href="project-item.html" style="display: block; margin-bottom: 20px;">
+            Проект подробнее
+        </a>
+        <a href="deposit.html" style="display: block; margin-bottom: 20px;">
+            Формы вклада
+        </a>
+        <a href="payment.html" style="display: block; margin-bottom: 20px;">
+            Оплата банковской картой
+        </a>
+        <a href="payment2.html" style="display: block; margin-bottom: 20px;">
+            Оплата банковской картой 2
+        </a>
+        <a href="news.html" style="display: block; margin-bottom: 20px;">
+            Новости
+        </a>
+        <a href="news-item.html" style="display: block; margin-bottom: 20px;">
+            Новость подробно
+        </a>
+        <a href="contacts.html" style="display: block; margin-bottom: 20px;">
+            Контакты
+        </a>
+
+
+
+
+        <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#quickOrder">
+            Быстрый заказ
+        </button>
+
+
+        <code>
+
+            @@include
+            ('components/page-blocks/_filter-slider.html',{ <br>
+            "start1":"0", <br>
+            "start2":"30000", <br>
+            "min":"1000", <br>
+            "max":"100000", <br>
+            })
+
+        </code>
+    </div>
+
+
+
+
+
+
+
+    <div class="modal" id="Modal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <div class="text32 medium-text">
+                    Title
+                </div>
+                <button class="close-btn _close-modal">
+                    <img src="img/close.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
